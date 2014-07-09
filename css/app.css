@@ -1,0 +1,51 @@
+body {
+    background: url(../img/bg2.png);
+    background-position:center center;
+    background-repeat :no-repeat;
+    background-attachment:scroll;
+    background-size:100% 100%;
+    background-color: green;
+}
+.body_wrapper{
+	width: 100%;
+	height: 100%;
+}
+.ui-page {
+    background: transparent;
+}
+.ui-content{
+    background: transparent;
+}
+.ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+background-color: #000 /*{a-bar-background-color}*/;
+border-color: #ddd /*{a-bar-border}*/;
+color: #fff /*{a-bar-color}*/;
+text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #eee /*{a-bar-shadow-color}*/;
+font-weight: bold;
+}
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited {
+background-color: #000 /*{a-bup-background-color}*/;
+border-color: #ddd /*{a-bup-border}*/;
+color: #fff /*{a-bup-color}*/;
+text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #f3f3f3 /*{a-bup-shadow-color}*/;
+}
+
+.branding img{
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.branding img.sm-brand { height: 30px; padding-top: 20px}
+
+.jump-panel-lst, .jump-panel-lst li ul { list-style-type: none; margin:0 0 0 0; padding: 0 0 0 0;}
+.jump-panel-lst li { margin-bottom: 20px; }
+.jump-panel-lst li ul li:first-child { width: 50%; float: left;}
+.jump-panel-lst li ul li:last-child { width: 50%; float: right;}
+.jump-panel-lst li a{ margin: 10px;  text-decoration: none; color: #fff; background: red; display: block;   padding: 8px 0; text-align: center;}
+.jump-panel-lst li a { text-transform: uppercase; font-size: 11px;  background: rgba(0,0,0,.7); color: #F0F0F0;       -webkit-border-radius: 5px;-moz-border-radius: 5px; border-radius: 5px;}
+.jump-panel-lst li a:active, .jump-panel-lst li a:hover {text-decoration: none;}
+
+.jump-panel-lst li a .ss-icon{ font-size: 25px; display: block; margin:  0 auto; padding-top: 5px; padding-bottom: 5px;}
+/* dashboard */
+
+
